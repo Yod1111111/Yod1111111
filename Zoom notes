@@ -1,0 +1,64 @@
+Meeting assets for LI Mo's Zoom Meeting are ready!
+
+View meeting recap
+Meeting summary
+
+
+Quick recap
+The team met to plan their hackathon project focused on building a deep research agent that goes beyond conventional academic research by connecting dots across different scientific disciplines and sources. Leanne explained the concept of moving from linear thinking to holistic research that can identify patterns across multiple fields, using geological examples like earthquake prediction as use cases. The team discussed technical architecture, with Anupam presenting a system design featuring query planning, retrieval agents, multi-modal ingestion, and report generation modules. They debated various implementation approaches, including using DSPy versus LangChain, and discussed the importance of allowing open-ended queries rather than restricting input to specific documents or files. The group agreed to have Raj use his Claude Max plan to generate a proper GitHub repository structure, while Rani would work on UI development using AI Studio, with the team planning to reconvene after establishing a base project to divide specific tasks among team members.
+
+Next steps
+Team: Align on the problem statement, end goal, and unique value proposition of the deep research agent project before beginning to build.
+Team: Define and agree on a concrete demo use case (e.g., geological/earthquake research) suitable for a 5-minute hackathon video demonstration.
+Tushar: Demonstrate Gemini deep research using the team's target use case (e.g., geological/earthquake research) to identify gaps and clarify how the team's project would differ and add value.
+Tushar: Take the lead in organizing the team, dividing the project into chunks, and assigning responsibilities to team members.
+Team: Begin building the multi-agent deep research agent that can accept multiple input types (PDFs, web search, video, images) and perform cross-source critical analysis.
+Leanne: Share the prepared notebook/use cases document with the team to serve as a starting point for the project.
+Leanne: Provide a concrete use case example (e.g., Tethys Ocean/earthquake research) that demonstrates the limitations of existing tools like Gemini to guide the project direction.
+Leanne: Send the Notion AI meeting transcription to all participants after the meeting.
+Sadia: Respond to the team regarding agreement or disagreement on the chosen project direction.
+Absent team members (Vijay and others): Be informed of the project decision made during the meeting and align accordingly.
+Summary
+Deep Research Agent Development Planning
+The team discussed building a deep research agent that goes beyond traditional academic research by integrating information across different countries, languages, and time periods. Leanne explained the concept using geological examples, particularly around earthquake research, but the group agreed to focus on a more relatable use case for their demo. They decided to build a generic deep research engine that could handle various topics, with healthcare being considered as a potential focus area since it would be easier to validate the results with subject matter experts. The team agreed to first determine how to build the system before selecting a specific use case for demonstration purposes.
+
+Multi-Agent Deep Research Project
+The team discussed proceeding with a multi-agent deep research project, with consensus reached to move forward after confirming no objections from absent team members. Rani presented a UI mockup for the research tool created using ChatGPT, which showed a comprehensive interface with multiple agents and progress tracking features. The team agreed to use this mockup as a foundation but simplify it for the hackathon iteration, with Streamlit suggested as a better alternative to Gradio for the UI implementation. They discussed using various AI tools including Claude and Gemini, with Raj having access to the highest plan level needed for the project.
+
+Deep Search Application Development Planning
+The team discussed the development of a deep search application, focusing on the system architecture and implementation approach. They reviewed an AI-generated UI design using Google AI Studio and Gradio, with plans to refine the frontend components and connect them to a backend. The group agreed to implement voice and image input capabilities in addition to file uploads, though they acknowledged that not all features would be completed within the 24-hour hackathon timeframe. Team members were assigned specific roles, with Rani and Anupam handling UI/UX and basic LLM implementation, while Raj would focus on backend development and connecting components. The team also discussed using CRXNG as a free alternative to Tavoli API for web search functionality.
+
+AI Research Assistant Architecture Planning
+The team discussed the architecture and implementation approach for building an AI research assistant system. They aligned on using an open-ended query input rather than requiring specific files like PDFs, with Tushar emphasizing the importance of maintaining flexibility for the AI to explore research directions independently. The group decided to have Raj create a GitHub repository using Claude, with S Shaikh providing guidance on the technical setup. They agreed to start with a shared base project before dividing into smaller groups to work on specific modules, with Rani working on UI generation using AI Studio and the team planning to reconvene in 1-2 hours to review progress.
+
+Project Structure with Claude Code
+The team discussed creating a project structure using Claude Code, focusing on resolving conflicts between different tech stack preferences. They decided to proceed with Streamlit for the UI rather than React, and agreed to keep audio and OCR as separate fields. The team worked through a prompt to generate the project structure, addressing issues with file formats and tech stack components. They debated whether to allow Claude to suggest improvements to the architecture, ultimately deciding to proceed with a robust prompt that would run automatically without requiring constant approvals to meet their tight deadline.
+
+Claude Code Project Setup Review
+The team discussed setting up and reviewing a Claude Code-generated project. Jijo and Raj worked through technical steps to navigate file folders and run commands in the terminal, including moving the project to the correct folder and installing requirements. They encountered issues with GitHub permissions and file access, ultimately deciding to compress the project files and share them via Google Drive. The group also discussed the business context, with Jijo explaining their software development company's transition toward AI development due to market demands and regional challenges.
+
+Project Setup and Testing Discussion
+The team discussed setting up and testing a project involving backend and frontend code. Tushar successfully ran the backend and frontend, but encountered connection issues that needed debugging. The group agreed to get the code working locally before pushing it to the repository. They also discussed replacing certain API keys and models with more appropriate ones from OpenRouter. Lian proposed focusing on a geological use case for the demonstration, which the team agreed to pursue. Jijo suggested using the cloud to resolve any issues encountered during setup.
+
+Code Debugging and UI Issues
+The team discussed issues with running the code locally, particularly errors related to the archive.org API causing rate exceeded and connection lost errors. Tushar identified that the backend was running but the UI was not functioning properly, with Anupam confirming that while the workflow and report generation were working, there were UI display issues that needed fixing. The team decided to split into two groups - Rani and Shaikh would work on creating a simpler console-based chat interface as a parallel approach, while Tushar and Anupam continued debugging the main implementation. A breakout room was created for Rani and Shaikh to continue their work on the alternative path.
+
+Query Planning Application Development
+The team discussed the development of a query planning and research application. Tushar demonstrated a working initial version using IntelliJ, which includes query planning functionality and basic report generation. The team decided to use this as a foundation to build a more sophisticated dashboard frontend, with Anupam tasked to implement improvements to the frontend based on a provided design. Raj shared his experience building a trading dashboard application using AI tools, which demonstrated the potential of their current project. The team agreed to continue developing the application for an upcoming hackathon, with plans to push regular updates and potentially seek funding for the project.
+
+AI Research Hackathon Progress Update
+The team discussed progress on their hackathon project, which involves building an AI research application. Tushar demonstrated significant improvements made using Claude, including a new UI interface and functional components that were previously missing. The team reviewed the previous winner's codebase and architecture, noting similarities in their approach. They decided to split tasks, with some members working on documentation and others testing file upload functionality and improving the UI. The team also discussed using GitHub Copilot and Claude for development, with Tushar noting concerns about the cost of using Claude for the hackathon. They agreed to continue iterating on the current version and push improvements to the main branch for further development.
+
+Deep Research Project Progress Update
+The team discussed progress on their deep research project, which includes research streaming, key insights generation, and report building capabilities. Anupam demonstrated integration with Tavily for web search functionality and multi-modal analysis. The team identified several action items including persisting parameters, fixing PDF download issues, and implementing API key integration. Tushar suggested creating a bill of items for micro-tasks and proposed that Anupam send a pull request to main while the team waits for Leanne to share the transcript. The discussion also covered plans for a knowledge graph implementation where users can click on nodes to explore different research directions, though this represents a different approach from their current linear research pipeline.
+
+API Debugging and Environment Issues
+The team discussed debugging issues with API keys and environment variables for their project. Anupam confirmed that multimodal functionality including PDF, image, and audio support was working, and had created a skill file using Claude to help with context. Raj initially had issues with unauthorized API key errors but later resolved them by properly updating the backend environment variables. The team also addressed GitHub access issues for Rani and Sheikh, with Tushar granting them permissions to push changes. Tushar requested that team members work on specific frontend components separately by creating branches and adding rows to track their progress in the shared Google Sheet.
+
+Research Tool Development Progress Update
+The team discussed progress on their research tool, focusing on implementing a dynamic spider graph and audio file support. Tushar reported that the current version shows both linear and deep views of research, though there's a bug with node highlighting that needs fixing. Anupam successfully added audio support and tested multiple file types, while Jijo encountered backend server issues that were resolved through environment configuration. The team reviewed S Sam's documentation of the system architecture, which was well-received but needs minor corrections to the flow diagram. Next steps include merging current code changes, fixing the node highlighting bug, and continuing to refine the existing features before adding new input methods.
+
+Research Project Progress Update
+The team discussed progress on their research project, focusing on both the backend AI functionality and frontend UI improvements. Tushar demonstrated the graph visualization feature that shows research depth and connections, while Anupam showed new functionality to list published papers related to their topic. The frontend team (Raj and Rani) presented significant UI improvements including better layout balance, live research feeds, source distribution visualization, and export capabilities for markdown and PDF reports. The team identified some merge conflicts between the frontend and backend changes that need to be resolved, and coordinated on next steps with team members planning to resume work in 7-8 hours to meet their 5:30 PM deadline.
+
+View in Zoom
